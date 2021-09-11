@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_40"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:text="Announcement"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/sp_13"
+        android:textStyle="bold" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dp_5"
+        app:cardCornerRadius="@dimen/dp_5">
+
+        <EditText
+            android:id="@+id/et_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_focus"
+            android:hint="Announcement title"
+            android:padding="@dimen/dp_8"
+            android:textColor="@color/colorText"
+            android:textSize="@dimen/sp_13" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dp_5"
+        app:cardCornerRadius="@dimen/dp_5">
+
+        <EditText
+            android:id="@+id/et_body"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_focus"
+            android:gravity="top|left|center_vertical|center_horizontal|center|start"
+            android:hint="Announcement description"
+            android:inputType="textMultiLine"
+            android:lines="3"
+            android:minLines="3"
+            android:padding="@dimen/dp_8"
+            android:textColor="@color/colorText"
+            android:textSize="@dimen/sp_13" />
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dp_5"
+        android:text="Announcement For" />
+
+    <RadioGroup
+        android:id="@+id/rg_announcement"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:padding="@dimen/dp_5">
+
+        <RadioButton
+            android:id="@+id/rb_announcement"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Announcement"
+            android:textColor="@color/colorText"
+            android:textSize="@dimen/sp_11" />
+
+        <RadioButton
+            android:id="@+id/rb_privacy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Privacy policy"
+            android:textColor="@color/colorText"
+            android:textSize="@dimen/sp_11" />
+
+        <RadioButton
+            android:id="@+id/rb_disclaimer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Disclaimer"
+            android:textColor="@color/colorText"
+            android:textSize="@dimen/sp_11" />
+
+        <RadioButton
+            android:id="@+id/rb_about"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="About Us"
+            android:textColor="@color/colorText"
+            android:textSize="@dimen/sp_11" />
+    </RadioGroup>
+</LinearLayout>

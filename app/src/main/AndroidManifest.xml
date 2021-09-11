@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.mynewacc.dreamteam11">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <application
+        android:name="androidx.multidex.MultiDexApplication"
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:icon="@drawable/app_icon"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@drawable/app_icon"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true"
+        tools:replace="android:networkSecurityConfig">
+        <activity
+            android:name="com.mynewacc.dreamteam11.cricket.Activity.Chek_Permission"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name="com.mynewacc.dreamteam11.cricket.Activity.Privacy_Policy"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mynewacc.dreamteam11.ads.SplashActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.mynewacc.dreamteam11.ads.PrivayPolicy"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mynewacc.dreamteam11.guide1.StartActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mynewacc.dreamteam11.guide1.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mynewacc.dreamteam11.guide1.DetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mynewacc.dreamteam11.guide1.GuideListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mynewacc.dreamteam11.cricket.Activity.A4_Start1"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mynewacc.dreamteam11.cricket.Activity.A5_Start2"
+            android:screenOrientation="portrait" />
+
+        <service
+            android:name="com.mynewacc.dreamteam11.ads.NotificationService"
+            android:exported="false"
+            android:permission="android.permission.BIND_JOB_SERVICE">
+            <intent-filter>
+                <action android:name="com.onesignal.NotificationExtender" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name="com.mynewacc.dreamteam11.cricket.Activity.CricketStartActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mynewacc.dreamteam11.cricket.Activity.HomeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mynewacc.dreamteam11.cricket.Activity.DetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mynewacc.dreamteam11.cricket.Activity.GlTeamActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mynewacc.dreamteam11.cricket.Notification.MyNotificationActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mynewacc.dreamteam11.cricket.Activity.PageViewActivity"
+            android:screenOrientation="portrait" />
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+    </application>
+
+</manifest>

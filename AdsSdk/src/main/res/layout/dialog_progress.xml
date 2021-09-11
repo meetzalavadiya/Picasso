@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="230dp"
+        android:layout_height="200dp">
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="230dp"
+            android:layout_height="200dp"
+            android:orientation="vertical">
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:textSize="16dp"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:text="Downloading.."
+            android:textColor="#000"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:orientation="vertical">
+            <antonkozyriatskyi.circularprogressindicator.CircularProgressIndicator
+                android:id="@+id/circular_progress"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                app:direction="clockwise"
+                android:layout_centerInParent="true"
+                app:dotColor="?colorPrimary"
+                app:drawDot="false"
+                app:enableProgressAnimation="true"
+                app:fillBackground="false"
+                app:progressBackgroundColor="#2A000000"
+                app:progressBackgroundStrokeWidth="@dimen/_10dp"
+                app:progressColor="@color/colorAccent"
+                app:progressStrokeWidth="@dimen/_10dp"
+                app:startAngle="270"
+                app:textSize="0dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="0 %"
+                    android:id="@+id/pr"
+                    android:textColor="#000" />
+            </RelativeLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:singleLine="true"
+                android:ellipsize="end"
+                android:text="Downloading Please Wait..."/>
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

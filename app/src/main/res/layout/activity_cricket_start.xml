@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#f1f1f1"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:fillViewport="true"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <com.pesonal.adsdk.nativad.nativad_Card
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="@dimen/_5dp"
+                app:cardCornerRadius="@dimen/_5dp"
+                app:cardElevation="3dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/banner" />
+
+            </com.pesonal.adsdk.nativad.nativad_Card>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp">
+
+                    <com.pesonal.adsdk.Qureka_Icon
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:layout_weight="1" />
+
+                    <com.pesonal.adsdk.Qureka_Icon
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:layout_weight="1" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_marginTop="15dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_60sdp"
+                    android:layout_marginLeft="@dimen/_20sdp"
+                    android:layout_marginRight="@dimen/_20sdp"
+                    android:orientation="horizontal">
+
+
+                    <LinearLayout
+                        android:layout_marginRight="5dp"
+                        android:orientation="horizontal"
+                        android:id="@+id/tvCricket"
+                        android:background="@drawable/gradiant_btn_round"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1" >
+                        <ImageView
+                            android:alpha="0.9"
+                            android:padding="8dp"
+                            android:layout_width="@dimen/_60sdp"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/crick_jp_logo" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="CRICKET"
+                            android:textStyle="bold"
+                            android:textSize="@dimen/_20sdp"
+                            android:gravity="center|left"
+                            android:singleLine="true"
+                            android:textColor="#fff"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_marginLeft="5dp"
+                        android:orientation="horizontal"
+                        android:id="@+id/tvFootball"
+                        android:background="@drawable/gradiant_btn_round"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1" >
+                        <ImageView
+                            android:alpha="0.9"
+                            android:padding="8dp"
+                            android:layout_width="@dimen/_60sdp"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/foot_jp_logo" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="FOOTBALL"
+                            android:textStyle="bold"
+                            android:textSize="@dimen/_20sdp"
+                            android:gravity="center|left"
+                            android:singleLine="true"
+                            android:textColor="#fff"/>
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginTop="15dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_60sdp"
+                    android:layout_marginLeft="@dimen/_20sdp"
+                    android:layout_marginRight="@dimen/_20sdp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_marginRight="5dp"
+                        android:orientation="horizontal"
+                        android:id="@+id/tvHockey"
+                        android:background="@drawable/gradiant_btn_round"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1" >
+                        <ImageView
+                            android:alpha="0.9"
+                            android:padding="8dp"
+                            android:layout_width="@dimen/_60sdp"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/hokey_jp_logo" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="HOCKY"
+                            android:textStyle="bold"
+                            android:textSize="@dimen/_20sdp"
+                            android:gravity="center|left"
+                            android:singleLine="true"
+                            android:textColor="#fff"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_marginLeft="5dp"
+                        android:orientation="horizontal"
+                        android:id="@+id/tvNBA"
+                        android:background="@drawable/gradiant_btn_round"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1" >
+                        <ImageView
+                            android:alpha="0.9"
+                            android:padding="8dp"
+                            android:layout_width="@dimen/_60sdp"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/nba_jp_logo" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="NBA"
+                            android:textStyle="bold"
+                            android:textSize="@dimen/_20sdp"
+                            android:gravity="center|left"
+                            android:singleLine="true"
+                            android:textColor="#fff"/>
+                    </LinearLayout>
+
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_marginTop="15dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="@dimen/_20sdp"
+                    android:layout_marginRight="@dimen/_20sdp"
+                    android:orientation="horizontal">
+
+                    <RelativeLayout
+                        android:layout_marginRight="5dp"
+                        android:orientation="horizontal"
+                        android:id="@+id/tvAllMatch"
+                        android:background="@drawable/gradiant_btn_round"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <ImageView
+                            android:id="@+id/logo1"
+                            android:alpha="0.9"
+                            android:padding="8dp"
+                            android:layout_width="@dimen/_60sdp"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/all_spo_jp_logo" />
+
+                        <TextView
+                            android:layout_toRightOf="@id/logo1"
+                            android:layout_toLeftOf="@id/logo2"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="ALL SPORTS"
+                            android:textStyle="bold"
+                            android:textSize="@dimen/_20sdp"
+                            android:gravity="center"
+                            android:singleLine="true"
+                            android:textColor="#fff"/>
+
+                        <ImageView
+                            android:rotation="180"
+                            android:layout_alignParentRight="true"
+                            android:id="@+id/logo2"
+                            android:alpha="0.9"
+                            android:padding="8dp"
+                            android:layout_width="@dimen/_60sdp"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/all_spo_jp_logo" />
+                    </RelativeLayout>
+
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp">
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <com.pesonal.adsdk.bannerad.bannerad_Card
+        android:id="@+id/ads"
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:layout_margin="@dimen/_5dp"
+        android:layout_alignParentBottom="true" />
+
+
+</LinearLayout>

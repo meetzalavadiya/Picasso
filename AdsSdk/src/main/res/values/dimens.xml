@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="nativ_ad_fix_height">200dp</dimen>
+    <dimen name="banner_ad_fix_height">90dp</dimen>
+    <dimen name="dp_4">4dp</dimen>
+    <dimen name="text_5">5dp</dimen>
+    <dimen name="_10dp">10dp</dimen>
+    <dimen name="_15dp">15dp</dimen>
+</resources>

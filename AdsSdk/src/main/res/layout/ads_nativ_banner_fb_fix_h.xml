@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.ads.NativeAdLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nativview"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:background="@color/cardview_bg"
+        app:cardBackgroundColor="@color/cardview_bg"
+        android:layout_height="@dimen/banner_ad_fix_height"
+        android:layout_margin="4dp"
+        app:cardCornerRadius="4dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <com.kaushikthedeveloper.squarelayout.SquareFrameLayout
+                        android:id="@+id/icon_view"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent">
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_margin="3dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <com.facebook.ads.MediaView
+                                android:id="@+id/native_icon_view"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_alignParentStart="true"
+                                android:layout_alignParentLeft="true"
+                                android:gravity="center" />
+                        </androidx.cardview.widget.CardView>
+                    </com.kaushikthedeveloper.squarelayout.SquareFrameLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_centerVertical="true"
+                        android:layout_toRightOf="@id/icon_view"
+                        android:orientation="vertical"
+                        android:paddingTop="3dp"
+                        android:paddingBottom="3dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_above="@id/call_to_action_card"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/native_ad_title"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:ellipsize="end"
+                                android:maxLines="1"
+                                android:textColor="@color/ad_text_primary"
+                                android:textSize="14sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/native_ad_social_context"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:ellipsize="end"
+                                android:gravity="center|left"
+                                android:maxLines="1"
+                                android:textColor="@color/ad_text_secondary"
+                                android:textSize="12sp" />
+
+                        </LinearLayout>
+
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/call_to_action_card"
+                            android:layout_width="match_parent"
+                            android:layout_height="25dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginLeft="3dp"
+                            android:layout_marginTop="1.5dp"
+                            android:layout_marginRight="3dp"
+                            app:cardBackgroundColor="#1E88E5">
+
+                            <TextView
+                                android:id="@+id/b_name"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_centerVertical="true"
+                                android:gravity="center"
+                                android:paddingLeft="@dimen/_10dp"
+                                android:paddingRight="@dimen/_10dp"
+                                android:textAllCaps="false"
+                                android:textColor="#fff"
+                                android:textSize="13dp"
+                                android:textStyle="bold" />
+                        </androidx.cardview.widget.CardView>
+
+                    </RelativeLayout>
+
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ad_choices_container"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/ad_coich_fb_bg"
+                android:gravity="end"
+                android:orientation="horizontal" />
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</com.facebook.ads.NativeAdLayout>

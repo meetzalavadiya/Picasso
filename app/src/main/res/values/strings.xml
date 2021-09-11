@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">My 11 Circle</string>
+
+    <string name="dvr">How do I change my personal information on Howzat Fantasy Cricket App?</string>
+    <string name="dvr_content">You shall be entitled to update the information provided by you by contacting us at support@games24x7.com.\n\n Your information shall be updated subject to reasonable checks and confirmation by Play Games24x7.</string>
+    <string name="features">How do I withdraw money from Howzat Fantasy Cricket App?</string>
+    <string name="features_content">(1) You can Withdraw Cash at any time by going to My Account page and clicking on Withdraw Cash.
+        \n\n(2) You are then asked to enter an amount you would like to withdraw.
+        \n\n(3) You can only withdraw an amount less than or equal to your Withdrawable Balance. ...
+        \n\n(4) For making a withdrawal, you need to be ID verified.</string>
+    <string name="internet">What are the rules to create a playing 11?</string>
+    <string name="internet_content">(1) You need to create your fantasy team using 100 credit points only.
+        \n\n(2) You cannot choose more than 7 players from a team.
+        \n\n(3) You can only choose a single wicket keeper.
+        \n\n(4) You have to pick all the skills (batsmen, all-rounder, bowler) for a team.</string>
+    <string name="material_clock_display_divider">:</string>
+    <string name="material_clock_toggle_content_description">Select AM or PM</string>
+    <string name="material_hour_selection">Select hour</string>
+    <string name="material_hour_suffix">%1$s o\'clock</string>
+    <string name="material_minute_selection">Select minutes</string>
+    <string name="material_minute_suffix">%1$s minutes</string>
+    <string name="material_timepicker_am">AM</string>
+    <string name="material_timepicker_clock_mode_description">Switch to clock mode for the time input.</string>
+    <string name="material_timepicker_hour">Hour</string>
+    <string name="material_timepicker_minute">Minute</string>
+    <string name="material_timepicker_pm">PM</string>
+    <string name="material_timepicker_select_time">Select time</string>
+    <string name="material_timepicker_text_input_mode_description">Switch to text input mode for the time input.</string>
+    <string name="offline_notification_text">Tap to open ad</string>
+    <string name="offline_notification_title">View the ad you saved when you were offline</string>
+    <string name="offline_opt_in_confirm">OK</string>
+    <string name="offline_opt_in_confirmation">You\'ll get a notification with the link when you\'re back online</string>
+    <string name="offline_opt_in_decline">No thanks</string>
+    <string name="offline_opt_in_message">We\'ll send you a notification with a link to the advertiser site.</string>
+    <string name="offline_opt_in_title">Open ad when you\'re back online.</string>
+    <string name="remote">How do you play Howzat Fantasy Cricket App?</string>
+    <string name="remote_content">Step 1. Register: Go to the Registration page on Howzat Fantasy Cricket App.com website or download Howzat Fantasy Cricket App and register via Facebook or your Email ID.
+        \n\nStep 2. Pick a match: Select a match from any upcoming tournament. There are a number of tournaments throughout the year.
+        \n\nStep 3. Manage your team: Then select 11 players to form your fantasy team with 100 credit points. But you can only pick a maximum of 7 players from one team.
+        \n\nStep 4. Contests: There are multiple contests running on Howzat Fantasy Cricket App. You can choose from Practice, Cash, and Private contests.
+        \n\nPractice contest: If you are new to fantasy sportst, you can start with the free practice contest to improve your skills before moving to the cash contests. You can play practice contest for unlimited times.
+        \nCash contest: If you are an experienced player and want to win prize money, go to cash contest. Choose from the various contests listed on the platform.
+        \nPrivate contest: If you are playing on the Howzat Fantasy Cricket App app, you can also create your own private contest and play with your friends or family.
+        \nStep 5. Monitor your players: Once the game begins, check the players’ performance in the live match section. As the live match progresses, see your team’s score increase based on the points system.</string>
+    <string name="review">What is Howzat Fantasy Cricket App?</string>
+    <string name="review_content">Owned and operated by Play Games24x7 Pvt. Ltd., Howzat Fantasy Cricket App is an online fantasy game designed for the fans who
+        \n        like to showcase their cricket knowledge and analytical skills. ...
+        \n        Here, you trust your skills and create your own fortune – all with the help of on-field players you placed your trust in.</string>
+    <string name="s1">Save image</string>
+    <string name="setbox">How do I download Howzat Fantasy Cricket App?</string>
+    <string name="setbox_content">Can I download Howzat Fantasy Cricket App app from Play Store or AppStore? Downloading Howzat Fantasy Cricket App is easy.
+        \n        You can either go to AppStore or you can simply go to the website, click on \'Download Now\' or give a missed call to 8080894422.
+        \n        You will get an APK file link on your Android device which is 100% reliable and safe.</string>
+    <string name="voice">How do you join 11 circles?</string>
+    <string name="voice_content">To join a fantasy cricket league, you need to join a match and pick a team of 11 players that includes 1-6 batsmen,
+        \n        1-6 bowlers, 1-4 wicket-keepers and 1-6 all-rounders. Along with it, you also need to select the Captain and Vice-Captain of the team.</string>
+
+    <string name="installnewapptitle_en">Install our new app now and enjoy</string>
+    <string name="installnewappdesc_en">We have transferred our server, so install our new app by clicking the button below to enjoy the new features of app.</string>
+    <string name="installnewapptitle_hi">अब हमारे नए एप्लिकेशन इंस्टॉल करें और आनंद लें</string>
+    <string name="installnewappdesc_hi">हमने हमारा सर्वेर ट्रांसफर किया है इसलिए ऐप की नई सुविधाओं का आनंद लेने के लिए नीचे दिए गए बटन पर क्लिक करकेे हमारा नया एप्प इनस्टॉल करे</string>
+    <string name="ads">Advertisement</string>
+
+
+    <string name="connect_internet">Please Connect To Internet</string>
+    <string name="fcm_fallback_notification_channel_label">Miscellaneous</string>
+    <string name="gl_notes">Note:\n\n* This is a Grand league team, and when we say grand league i.e. high risk high gain, no risk no gain, please use this team at your own risk.\n\n* Captain and Vice captain play a key role in any team.\n\n* Please do your own analysis also to select Captain and Vice Captain based on current news and report.</string>
+    <string name="retry">Retry Again</string>
+    <string name="sponser_lebel">Sponsored</string>
+    <string name="subscribe_to">DreamGuru</string>
+    <string name="agree_next"><![CDATA[Agree & Next]]></string>
+
+
+</resources>
